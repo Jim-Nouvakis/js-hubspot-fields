@@ -1,0 +1,33 @@
+{
+  "name": "js-hubspot-fields",
+  "version": "0.0.2",
+  "description": "A package to write fields using ts or js.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "hubspot",
+    "fields.json",
+    "ts"
+  ],
+  "author": "Jim Nouvakis",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jim-Nouvakis/js-hubspot-fields.git"
+  },
+  "homepage": "https://github.com/Jim-Nouvakis/js-hubspot-fields#readme"
+}
