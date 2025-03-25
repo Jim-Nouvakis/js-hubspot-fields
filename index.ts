@@ -1,20 +1,10 @@
 import {
-    BooleanFieldProperties,
-    ChoiceFieldProperties,
-    DefaultFieldProperties,
-    EmailAddressFieldProperties,
-    Field,
-    FileFieldProperties,
-    FormFieldProperties,
-    GroupFieldProperties,
-    ImageFieldProperties,
-    LinkFieldProperties,
-    MenuFieldProperties,
-    NumberFieldProperties,
+    BooleanFieldProperties, ChoiceFieldProperties,
+    DefaultFieldProperties, EmailAddressFieldProperties,
+    Field, FileFieldProperties, FormFieldProperties,
+    GroupFieldProperties, ImageFieldProperties, LinkFieldProperties, MenuFieldProperties, NumberFieldProperties,
     RichTextFieldProperties,
-    TextFieldProperties,
-    UrlFieldProperties,
-    VideoFieldProperties,
+    TextFieldProperties, UrlFieldProperties, VideoFieldProperties
 } from "./fields.js";
 
 const defaultProperties = (customValues: DefaultFieldProperties) => {
