@@ -1,7 +1,7 @@
 {
   "name": "js-hubspot-fields",
-  "version": "0.0.2",
-  "description": "A package to write fields using ts or js.",
+  "version": "0.0.1",
+  "description": "A package to write HubSpot fields utilizing TypeScript or JavaScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
